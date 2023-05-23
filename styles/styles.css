@@ -69,10 +69,36 @@
 #home2 {
     background: #FFC700;
     width: 100%;
+    padding: 3em 1em;
+}
+
+.home-text2 {
+    max-width: 1300px;
+    color: #330000;
 }
 
 main {
     margin-top: var(--navbar-height);
+}
+
+#contact {
+    background: #7C1A1A;
+    padding: 3em 1em;
+}
+
+.formfield {
+    border: 1px solid var(--navbar-backgorund);
+    border-radius: 10px;
+    padding: 1em;
+    max-width: 80%;
+}
+
+.btn-yellow {
+    background: #FFC700;
+    color: black;
+}
+.btn-yellow:hover {
+    background: #a07d00;
 }
 
 @media (max-width: 768px) { 
@@ -106,6 +132,10 @@ main {
     }
     .home-img {
         max-height: 30vw;
+    }
+    
+    .formfield {
+        max-width: none;
     }
 }
 
